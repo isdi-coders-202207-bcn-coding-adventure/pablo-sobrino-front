@@ -16,16 +16,17 @@ const CounterStyled = styled.ul`
     font-family: oxanium, Verdana, Geneva, Tahoma, sans-serif;
   }
 
-  & .__number {
-    border-radius: 14px;
-    color: rgba(37, 50, 66, 255);
-    background-color: rgba(255, 198, 1, 255);
-    padding: 1.5rem;
-    font-size: 2rem;
-  }
-
-  & .__name {
-    color: white;
+  & .counter {
+    &__number {
+      border-radius: 14px;
+      color: rgba(37, 50, 66, 255);
+      background-color: rgba(255, 198, 1, 255);
+      padding: 1.5rem;
+      font-size: 2rem;
+    }
+    &__name {
+      color: white;
+    }
   }
 `;
 
