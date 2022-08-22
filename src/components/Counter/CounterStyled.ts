@@ -16,7 +16,7 @@ const CounterStyled = styled.ul`
     font-family: oxanium, Verdana, Geneva, Tahoma, sans-serif;
   }
 
-  & .counter__number {
+  & .__number {
     border-radius: 14px;
     color: rgba(37, 50, 66, 255);
     background-color: rgba(255, 198, 1, 255);
@@ -24,7 +24,7 @@ const CounterStyled = styled.ul`
     font-size: 2rem;
   }
 
-  & .counter__name {
+  & .__name {
     color: white;
   }
 `;
