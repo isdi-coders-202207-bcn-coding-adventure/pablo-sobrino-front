@@ -9,14 +9,14 @@ const CounterStyled = styled.ul`
   width: fit-content;
   padding: 3rem;
 
-  & li {
+  li {
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: oxanium, Verdana, Geneva, Tahoma, sans-serif;
   }
 
-  & .counter {
+  .counter {
     &__number {
       border-radius: 14px;
       color: rgba(37, 50, 66, 255);
